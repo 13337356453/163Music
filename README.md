@@ -28,7 +28,7 @@ pip install -r requirement.txt
 
 全部安装完成后进入下一步
 
-![1](D:\jetbrain\Projects\PyProject\web spider\163Music\imgs\1.png)
+![1](imgs\1.png)
 
 ## 2.获取Cookie
 
