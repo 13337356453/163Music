@@ -28,7 +28,7 @@ pip install -r requirement.txt
 
 全部安装完成后进入下一步
 
-![1](imgs\1.png)
+![1](imgs/1.png)
 
 ## 2.获取Cookie
 
@@ -38,15 +38,15 @@ pip install -r requirement.txt
 
 登陆完成后按下**F12**进入**开发者工具**，选择**Network**
 
-![3](imgs\3.png)
+![3](imgs/3.png)
 
 点击**刷新按钮**刷新界面，同时下方出现**请求包**。
 
-![4](imgs\4.png)
+![4](imgs/4.png)
 
 选中请求包，查看**Cookie**，将其复制
 
-![5](imgs\5.png)
+![5](imgs/5.png)
 
 ## 3.运行程序
 
@@ -56,7 +56,7 @@ pip install -r requirement.txt
 
 在搜索框输入**爱我还是他**，得到的结果的第一条即为我想要的歌曲。
 
-![6](imgs\6.png)
+![6](imgs/6.png)
 
 接下来运行程序，可以输入参数**-h**来查看参数详细
 
@@ -64,7 +64,7 @@ pip install -r requirement.txt
 python .\Yun.py -h
 ```
 
-![7](imgs\7.png)
+![7](imgs/7.png)
 
 其中，**-c**和**-k**是必选参数。
 
@@ -74,17 +74,17 @@ python .\Yun.py -h
 python Yun.py -c "cookie" -k 爱我还是他
 ```
 
-![8](imgs\8.png)
+![8](imgs/8.png)
 
 歌曲保存到**./music/爱我还是他-陶喆.mp3**
 
-![9](imgs\9.png)
+![9](imgs/9.png)
 
 如果有多个关键字，则可创建一个文件，其中存储多个关键字
 
 例如我在此创建一个名为**kw.txt**的文件，其中储存多个关键字
 
-![10](imgs\10.png)
+![10](imgs/10.png)
 
 则可在**-k**参数中指定为文件名
 
@@ -92,7 +92,7 @@ python Yun.py -c "cookie" -k 爱我还是他
 python .\Yun.py -c "Ncookie" -k .\kw.txt
 ```
 
-![11](imgs\11.png)
+![11](imgs/11.png)
 
 ## 注意事项
 
